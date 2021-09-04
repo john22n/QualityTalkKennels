@@ -1,6 +1,7 @@
 .header-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
+  background-color: bisque;
 }
 
 @keyframes tonext {
@@ -49,8 +50,6 @@
 }
 
 body {
-  max-width: 37.5rem;
-  padding: 0 1.25rem;
   font-family: "Lato", sans-serif;
 }
 
@@ -59,6 +58,8 @@ img {
 }
 
 section {
+  max-width: 37.5rem;
+  padding: 0 1.25rem;
   margin: 0 auto;
 }
 
