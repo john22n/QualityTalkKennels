@@ -1,3 +1,8 @@
+.header-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
 @keyframes tonext {
   75% {
     left: 0;
@@ -236,13 +241,13 @@ li {
 }
 
 #carousel__slide1 {
-  background-image: url("./assets/imgOne.JPG");
+  content: url("./assets/imgOne.JPG");
 }
 
 #carousel__slide2 {
-  background-image: url("./assets/imgTwo.JPG");
+  content: url("./assets/imgTwo.JPG");
 }
 
 #carousel__slide3 {
-  background-image: url("./assets/imgThree.JPG");
+  content: url("./assets/imgThree.JPG");
 }
