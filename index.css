@@ -216,8 +216,11 @@ p {
 
 /* Contact Form*/
 #contact-form {
-  height: 50vh;
   background: url("./assets/imgOne.JPG") no-repeat center center/cover;
+}
+
+#contact-form .container {
+  height: max-content;
 }
 
 /* Footer*/
