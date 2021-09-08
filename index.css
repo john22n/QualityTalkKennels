@@ -121,7 +121,7 @@ p {
 
 /* Showcase*/
 #showcase {
-  background: url("./assets/logo.JPG") no-repeat center center/cover;
+  background: url("./assets/logo.JPG") no-repeat center center/60%;
   height: 600px;
 }
 #showcase .showcase-content {
@@ -145,7 +145,7 @@ p {
 #home_info .info-img {
   float: left;
   width: 50%;
-  background: url("./assets/imgTwo.JPG") no-repeat;
+  background: url("./assets/imgTwo.JPG") no-repeat center center/60%;
   min-height: 100%;
 }
 #home_info .info-content {
@@ -193,7 +193,7 @@ p {
 /* Testimonial*/
 #testimonials {
   height: 100%;
-  background: url("../img/test-bg.jpg") no-repeat center center/cover;
+  background: url("../img/test-bg.jpg") no-repeat center center/80%;
   padding-top: 100px;
 }
 #testimonials h2 {
@@ -217,11 +217,11 @@ p {
 /* Contact Form*/
 #contact-form {
   height: 100vh;
-  background: url("./assets/imgOne.JPG") no-repeat center center/cover;
+  background: url("./assets/imgOne.JPG") no-repeat center center/50%;
 }
 
 #contact-form .container {
-  height: 50%;
+  height: 40%;
 }
 
 /* Footer*/
